@@ -1,35 +1,51 @@
 let add1 = document.getElementById('add1');
 let add2 = document.getElementById('add2');
 let add3 = document.getElementById('add3');
+let add4 = document.getElementById('add4');
+let add5 = document.getElementById('add5');
+let add6 = document.getElementById('add6');
 let dradd1 = document.getElementById('dradd1');
 let dradd2 = document.getElementById('dradd2');
 let dradd3 = document.getElementById('dradd3');
-
+let dradd4 = document.getElementById('dradd4');
+let dradd5 = document.getElementById('dradd5');
+let dradd6 = document.getElementById('dradd6');
 let remove1 = document.getElementById('remove1');
 let remove2 = document.getElementById('remove2');
 let remove3 = document.getElementById('remove3');
+let remove4 = document.getElementById('remove4');
+let remove5 = document.getElementById('remove5');
+let remove6 = document.getElementById('remove6');
 let drremove1 = document.getElementById('drremove1');
 let drremove2 = document.getElementById('drremove2');
 let drremove3 = document.getElementById('drremove3');
-
-
+let drremove4 = document.getElementById('drremove4');
+let drremove5 = document.getElementById('drremove5');
+let drremove6 = document.getElementById('drremove6');
 let pts1 = document.getElementById('pts1');
 let pts2 = document.getElementById('pts2');
 let pts3 = document.getElementById('pts3');
-
+let pts4 = document.getElementById('pts4');
+let pts5 = document.getElementById('pts5');
+let pts6 = document.getElementById('pts6');
 let dr1 = document.getElementById('dr1');
 let dr2 = document.getElementById('dr2');
 let dr3 = document.getElementById('dr3');
-
-
+let dr4 = document.getElementById('dr4');
+let dr5 = document.getElementById('dr5');
+let dr6 = document.getElementById('dr6');
 let integer1 = 0;
 let integer2 = 0;
 let integer3 = 0;
-
+let integer4 = 0;
+let integer5 = 0;
+let integer6 = 0;
 let drinteger1 = 0;
 let drinteger2 = 0;
 let drinteger3 = 0;
-
+let drinteger4 = 0;
+let drinteger5 = 0;
+let drinteger6 = 0;
 
 add1.addEventListener('click', function(){
     integer1 += 50;
@@ -44,6 +60,21 @@ add2.addEventListener('click', function(){
 add3.addEventListener('click', function(){
     integer3 += 50;
     pts3.innerHTML = "Points : "+ integer3;
+});
+
+add4.addEventListener('click', function(){
+    integer4 += 50;
+    pts4.innerHTML = "Points : "+ integer4;
+});
+
+add5.addEventListener('click', function(){
+    integer5 += 50;
+    pts5.innerHTML = "Points : "+ integer5;
+});
+
+add6.addEventListener('click', function(){
+    integer6 += 50;
+    pts6.innerHTML = "Points : "+ integer6;
 });
 
 dradd1.addEventListener('click', function(){
@@ -61,7 +92,20 @@ dradd3.addEventListener('click', function(){
     dr3.innerHTML = "Dollars : "+ drinteger3;
 });
 
+dradd4.addEventListener('click', function(){
+    drinteger4 += 50;
+    dr4.innerHTML = "Dollars : "+ drinteger4;
+});
 
+dradd5.addEventListener('click', function(){
+    drinteger5 += 50;
+    dr5.innerHTML = "Dollars : "+ drinteger5;
+});
+
+dradd6.addEventListener('click', function(){
+    drinteger6 += 50;
+    dr6.innerHTML = "Dollars : "+ drinteger6;
+});
 
 remove1.addEventListener('click', function(){
     integer1 -= 50;
@@ -76,6 +120,21 @@ remove2.addEventListener('click', function(){
 remove3.addEventListener('click', function(){
     integer3 -= 50;
     pts3.innerHTML = "Points : "+ integer3;
+});
+
+remove4.addEventListener('click', function(){
+    integer4 -= 50;
+    pts4.innerHTML = "Points : "+ integer4;
+});
+
+remove5.addEventListener('click', function(){
+    integer5 -= 50;
+    pts5.innerHTML = "Points : "+ integer5;
+});
+
+remove6.addEventListener('click', function(){
+    integer6 -= 50;
+    pts6.innerHTML = "Points : "+ integer6;
 });
 
 drremove1.addEventListener('click', function(){
@@ -93,6 +152,20 @@ drremove3.addEventListener('click', function(){
     dr3.innerHTML = "Dollars : "+ drinteger3;
 });
 
+drremove4.addEventListener('click', function(){
+    drinteger4 -= 50;
+    dr4.innerHTML = "Dollars : "+ drinteger4;
+});
+
+drremove5.addEventListener('click', function(){
+    drinteger5 -= 50;
+    dr5.innerHTML = "Dollars : "+ drinteger5;
+});
+
+drremove6.addEventListener('click', function(){
+    drinteger6 -= 50;
+    dr6.innerHTML = "Dollars : "+ drinteger6;
+});
 
 var cases = document.getElementById('cases');
 var cases1 = document.getElementById('choixcases');
