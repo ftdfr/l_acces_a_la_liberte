@@ -38,7 +38,7 @@
         <br>
         <h1 class="case" id="test">Case</h1>
         <div class="case">
-            <select id="cases">
+            <select id="cases" onchange="points()">
                 <option value="option">Sélectionnez une option</option>
                 <option value="case1">Case 1</option>
                 <option value="case2">Case 2</option>
@@ -56,7 +56,8 @@
                 <option value="case17">Case 17</option>
                 <option value="case18">Case 18</option>
                 <option value="case19">Case 19</option>
-            </select> 
+            </select>
+            <p id="choix"></p>
         </div>
     <div class="footer"></div>
     <script type="text/javascript" src="main.js"></script>

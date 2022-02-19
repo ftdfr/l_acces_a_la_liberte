@@ -12,8 +12,6 @@ let integer2 = 0;
 let pts3 = document.getElementById('pts3');
 let integer3 = 0;
 
-var cases = document.getElementById('cases');
-
 
 add1.addEventListener('click', function(){
     integer1 += 1;
@@ -46,17 +44,44 @@ remove3.addEventListener('click', function(){
 });
 
 
+var cases = document.getElementById('cases');
+var choix = document.getElementById('choix');
 
-
-function getSelectValue(selectId) {
-	var selectElmt = document.getElementById(selectId);
-	return selectElmt.options[selectElmt.selectedIndex].value;
-}
-
-var selectValue = getSelectValue('cases');
-
-cases.addEventListener('click', function points (selectValue){
-    if (selectValue == "case1"){
-        alert('Choix 1 : ...');
+function points(selectValue){
+    var x = cases.value;
+    if (x == "option"){
+        choix.innerHTML = "Sélectionnez une case";
+    }else if(x == "case1"){
+        choix.innerHTML = "Choix1....";
+    }else if(x == "case2"){
+        choix.innerHTML = "Choix2....";
+    }else if(x == "case3"){
+        choix.innerHTML = "Choix3....";
+    }else if(x == "case4"){
+        choix.innerHTML = "Choix4....";
+    }else if(x == "case6"){
+        choix.innerHTML = "Choix6....";
+    }else if(x == "case7"){
+        choix.innerHTML = "Choix7....";
+    }else if(x == "case8"){
+        choix.innerHTML = "Choix8....";
+    }else if(x == "case9"){
+        choix.innerHTML = "Choix9....";
+    }else if(x == "case11"){
+        choix.innerHTML = "Choix11....";
+    }else if(x == "case12"){
+        choix.innerHTML = "Choix12....";
+    }else if(x == "case13"){
+        choix.innerHTML = "Choix13....";
+    }else if(x == "case14"){
+        choix.innerHTML = "Choix14....";
+    }else if(x == "case16"){
+        choix.innerHTML = "Choix16....";
+    }else if(x == "case17"){
+        choix.innerHTML = "Choix17....";
+    }else if(x == "case18"){
+        choix.innerHTML = "Choix18....";
+    }else if(x == "case19"){
+        choix.innerHTML = "Choix19....";
     }
-});
+}
