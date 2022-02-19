@@ -1,46 +1,96 @@
 let add1 = document.getElementById('add1');
-let remove1 = document.getElementById('remove1');
 let add2 = document.getElementById('add2');
-let remove2 = document.getElementById('remove2');
 let add3 = document.getElementById('add3');
+let dradd1 = document.getElementById('dradd1');
+let dradd2 = document.getElementById('dradd2');
+let dradd3 = document.getElementById('dradd3');
+
+let remove1 = document.getElementById('remove1');
+let remove2 = document.getElementById('remove2');
 let remove3 = document.getElementById('remove3');
+let drremove1 = document.getElementById('drremove1');
+let drremove2 = document.getElementById('drremove2');
+let drremove3 = document.getElementById('drremove3');
+
 
 let pts1 = document.getElementById('pts1');
-let integer1 = 0;
 let pts2 = document.getElementById('pts2');
-let integer2 = 0;
 let pts3 = document.getElementById('pts3');
+
+let dr1 = document.getElementById('dr1');
+let dr2 = document.getElementById('dr2');
+let dr3 = document.getElementById('dr3');
+
+
+let integer1 = 0;
+let integer2 = 0;
 let integer3 = 0;
+
+let drinteger1 = 0;
+let drinteger2 = 0;
+let drinteger3 = 0;
 
 
 add1.addEventListener('click', function(){
-    integer1 += 1;
-    pts1.innerHTML = integer1;
-});
-
-remove1.addEventListener('click', function(){
-    integer1 -= 1;
-    pts1.innerHTML = integer1;
+    integer1 += 50;
+    pts1.innerHTML = "Points : "+ integer1;
 });
 
 add2.addEventListener('click', function(){
-    integer2 += 1;
-    pts2.innerHTML = integer2;
-});
-
-remove2.addEventListener('click', function(){
-    integer2 -= 1;
-    pts2.innerHTML = integer2;
+    integer2 += 50;
+    pts2.innerHTML = "Points : "+ integer2;
 });
 
 add3.addEventListener('click', function(){
-    integer3 += 1;
-    pts3.innerHTML = integer3;
+    integer3 += 50;
+    pts3.innerHTML = "Points : "+ integer3;
+});
+
+dradd1.addEventListener('click', function(){
+    drinteger1 += 50;
+    dr1.innerHTML = "Dollars : "+ drinteger1;
+});
+
+dradd2.addEventListener('click', function(){
+    drinteger2 += 50;
+    dr2.innerHTML = "Dollars : "+ drinteger2;
+});
+
+dradd3.addEventListener('click', function(){
+    drinteger3 += 50;
+    dr3.innerHTML = "Dollars : "+ drinteger3;
+});
+
+
+
+remove1.addEventListener('click', function(){
+    integer1 -= 50;
+    pts1.innerHTML = "Points : "+ integer1;
+});
+
+remove2.addEventListener('click', function(){
+    integer2 -= 50;
+    pts2.innerHTML = "Points : "+ integer2;
 });
 
 remove3.addEventListener('click', function(){
-    integer3 -= 1;
-    pts3.innerHTML = integer3;
+    integer3 -= 50;
+    pts3.innerHTML = "Points : "+ integer3;
+});
+
+drremove1.addEventListener('click', function(){
+    drinteger1 -= 50;
+    dr1.innerHTML = "Dollars : "+ drinteger1;
+});
+
+drremove2.addEventListener('click', function(){
+    drinteger2 -= 50;
+    dr2.innerHTML = "Dollars : "+ drinteger2;
+});
+
+drremove3.addEventListener('click', function(){
+    drinteger3 -= 50;
+    dr3.innerHTML = "Dollars : "+ drinteger3;
 });
 
 
