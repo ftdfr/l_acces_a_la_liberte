@@ -1,48 +1,56 @@
 body {
-    background-color: #282a36;
-    color: ghostwhite;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    color: #2f3d4c;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.tour {
+    font-size: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.grid > div {
+    margin: 2rem;
+    padding: 0 2rem 2rem 2rem;
+    border: solid 5px #2f3d4c;
+    border-radius: 10px;
+    width: 15vw;
+    height: 65vh;
 }
 
 .inner {
-    padding-top: 1rem;
     text-align: center;
+    padding: 0.5rem 0;
 }
 
-.box {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-around;
+.ptsdr {
+    padding: 2rem 0 0 0;
 }
 
-.boxes {
-    font-size: 40px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    border: 0.3rem solid white;
-    border-radius: 10px;
-    padding: 1rem;
+.body {
+    margin: 5rem;
+    background-color:#eeeeee;
+    height: 87vh;
+    border-radius: 50px;
 }
 
-.items {
-    padding: 1rem;   
+.depart {
+    padding: 2rem 0;
 }
 
-button {
-    background-color: white;
-    color: #282a36;
-    border-color: white;
-    font-size: 30px;
-}
-
-.case {
-    padding-left: 8rem;
-    text-align: left;
-}
-
-.selects {
-    padding-left: 2rem;
+#compteurpark {
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }

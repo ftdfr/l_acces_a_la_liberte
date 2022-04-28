@@ -8,186 +8,111 @@
     <title>L'accès à la liberté !</title>
 </head>
 <body>
-    <div class="inner">
-        <h1>L'accès à la liberté</h1>
-    </div>
     <div class="body">
-        <div class="box">
-            <div>Pays 1</div>
-            <div>Pays 2</div>
-            <div>Pays 3</div>
+        <div class="inner">
+            <h1 class="inner">L'accès à la liberté</h1>
         </div>
-        <div class="box">
-            <div class="boxes">
-                <div class="items" id="pts1">Points : 0</div>
-                <button class="items" id="add1">+</button>
-                <button class="items" id="remove1">-</button>
-            </div>
-            <div class="boxes">
-                <div class="items" id="pts2">Points : 0</div>
-                <button class="items" id="add2">+</button>
-                <button class="items" id="remove2">-</button>
-            </div>
-            <div class="boxes">
-                <div class="items" id="pts3">Points : 0</div>
-                <button class="items" id="add3">+</button>
-                <button class="items" id="remove3">-</button>
-            </div>
+        <div class="compteurpark">
+            <p id="compteurpark">Argent dans le park gratuit : 0 dollars</p>
         </div>
-        <div class="box">
-            <div class="boxes">
-                <div class="items" id="dr1">Dollars : 0</div>
-                <button class="items" id="dradd1">+</button>
-                <button class="items" id="drremove1">-</button>
-            </div>
-            <div class="boxes">
-                <div class="items" id="dr2">Dollars : 0</div>
-                <button class="items" id="dradd2">+</button>
-                <button class="items" id="drremove2">-</button>
-            </div>
-            <div class="boxes">
-                <div class="items" id="dr3">Dollars : 0</div>
-                <button class="items" id="dradd3">+</button>
-                <button class="items" id="drremove3">-</button>
-            </div>
-        </div>
-        <div class="box">
-            <div>Pays 4</div>
-            <div>Pays 5</div>
-            <div>Pays 6</div>
-        </div>
-        <div class="box">
-            <div class="boxes">
-                <div class="items" id="pts4">Points : 0</div>
-                <button class="items" id="add4">+</button>
-                <button class="items" id="remove4">-</button>
-            </div>
-            <div class="boxes">
-                <div class="items" id="pts5">Points : 0</div>
-                <button class="items" id="add5">+</button>
-                <button class="items" id="remove5">-</button>
-            </div>
-            <div class="boxes">
-                <div class="items" id="pts6">Points : 0</div>
-                <button class="items" id="add6">+</button>
-                <button class="items" id="remove6">-</button>
-            </div>
-        </div>
-        <div class="box">
-            <div class="boxes">
-                <div class="items" id="dr4">Dollars : 0</div>
-                <button class="items" id="dradd4">+</button>
-                <button class="items" id="drremove4">-</button>
-            </div>
-            <div class="boxes">
-                <div class="items" id="dr5">Dollars : 0</div>
-                <button class="items" id="dradd5">+</button>
-                <button class="items" id="drremove5">-</button>
-            </div>
-            <div class="boxes">
-                <div class="items" id="dr6">Dollars : 0</div>
-                <button class="items" id="dradd6">+</button>
-                <button class="items" id="drremove6">-</button>
-            </div>
-        </div>
-        <br>
-        <div class="selects">
-            <h1 class="case">Case</h1>
-            <div class="case">
-                <select id="cases" onchange="points()">
-                    <option value="option">Sélectionnez une option</option>
-                    <option value="case1">Case 1</option>
-                    <option value="case2">Case 2</option>
-                    <option value="case3">Case 3</option>
-                    <option value="case4">Case 4</option>
-                    <option value="case6">Case 6</option>
-                    <option value="case7">Case 7</option>
-                    <option value="case8">Case 8</option>
-                    <option value="case9">Case 9</option>
-                    <option value="case11">Case 11</option>
-                    <option value="case12">Case 12</option>
-                    <option value="case13">Case 13</option>
-                    <option value="case14">Case 14</option>
-                    <option value="case16">Case 16</option>
-                    <option value="case17">Case 17</option>
-                    <option value="case18">Case 18</option>
-                    <option value="case19">Case 19</option>
-                </select>
-                <p id="choix"></p>
-            </div>
-            <h1 class="case">Choix</h1>
-            <div class="case" id="choixcase">
-                <select id="choixcases" onchange="showpoints()">
-                    <option value="option">Sélectionnez une option</option>
-                    <optgroup value="case1" label="Case 1">
-                        <option value="choix1-1">Choix 1</option>
-                        <option value="choix1-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case2" label="Case 2">
-                        <option value="choix2-1">Choix 1</option>
-                        <option value="choix2-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case3" label="Case 3">
-                        <option value="choix3-1">Choix 1</option>
-                        <option value="choix3-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case4" label="Case 4">
-                        <option value="choix4-1">Choix 1</option>
-                        <option value="choix4-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case6" label="Case 6">
-                        <option value="choix6-1">Choix 1</option>
-                        <option value="choix6-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case7" label="Case 7">
-                        <option value="choix7-1">Choix 1</option>
-                        <option value="choix7-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case8" label="Case 8">
-                        <option value="choix8-1">Choix 1</option>
-                        <option value="choix8-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case9" label="Case 9">
-                        <option value="choix9-1">Choix 1</option>
-                        <option value="choix9-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case11" label="Case 11">
-                        <option value="choix11-1">Choix 1</option>
-                        <option value="choix11-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case12" label="Case 12">
-                        <option value="choix12-1">Choix 1</option>
-                        <option value="choix12-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case13" label="Case 13">
-                        <option value="choix13-1">Choix 1</option>
-                        <option value="choix13-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case14" label="Case 14">
-                        <option value="choix14-1">Choix 1</option>
-                        <option value="choix14-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case16" label="Case 16">
-                        <option value="choix16-1">Choix 1</option>
-                        <option value="choix16-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case17" label="Case 17">
-                        <option value="choix17-1">Choix 1</option>
-                        <option value="choix17-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case18" label="Case 18">
-                        <option value="choix18-1">Choix 1</option>
-                        <option value="choix18-2">Choix 2</option>
-                    </optgroup>
-                    <optgroup value="case19" label="Case 19">
-                        <option value="choix19-1">Choix 1</option>
-                        <option value="choix19-2">Choix 2</option>
-                    </optgroup>
-                </select>
-                <p id="choix1"></p>
+        <div class="grid">
+            <div class="j1">
+                <h1>Joueur 1</h1>
+                <div class="selects">
+                    <h1 class="case">Case</h1>
+                    <div class="case">
+                        <select id="cases1" onchange="points1()">
+                            <option value="option">Sélectionnez une option</option>
+                            <optgroup value="tour1" label="Tour 1">
+                                <option value="case1-1">Case 1</option>
+                                <option value="case1-2">Case 2</option>
+                                <option value="case1-3">Case 3</option>
+                                <option value="case1-4">Case 4</option>
+                                <option value="case1-5">Case 5</option>
+                                <option value="case1-6">Case 6</option>
+                                <option value="case1-7">Case 7</option>
+                                <option value="case1-8">Case 8</option>
+                                <option value="case1-9">Case 9</option>
+                                <option value="case1-10">Case 10</option>
+                                <option value="case1-11">Case 11</option>
+                                <option value="case1-12">Case 12</option>
+                                <option value="case1-13">Case 13</option>
+                                <option value="case1-14">Case 14</option>
+                                <option value="case1-15">Case 15</option>
+                                <option value="case1-16">Case 16</option>
+                                <option value="case1-17">Case 17</option>
+                                <option value="case1-18">Case 18</option>
+                                <option value="case1-19">Case 19</option>
+                                <option value="case1-20">Case 20</option>
+                            </optgroup>
+                            <optgroup value="tour2" label="Tour 2">
+                                <option value="case2-1">Case 1</option>
+                                <option value="case2-2">Case 2</option>
+                                <option value="case2-3">Case 3</option>
+                                <option value="case2-4">Case 4</option>
+                                <option value="case2-5">Case 5</option>
+                                <option value="case2-6">Case 6</option>
+                                <option value="case2-7">Case 7</option>
+                                <option value="case2-8">Case 8</option>
+                                <option value="case2-9">Case 9</option>
+                                <option value="case2-10">Case 10</option>
+                                <option value="case2-11">Case 11</option>
+                                <option value="case2-12">Case 12</option>
+                                <option value="case2-13">Case 13</option>
+                                <option value="case2-14">Case 14</option>
+                                <option value="case2-15">Case 15</option>
+                                <option value="case2-16">Case 16</option>
+                                <option value="case2-17">Case 17</option>
+                                <option value="case2-18">Case 18</option>
+                                <option value="case2-19">Case 19</option>
+                                <option value="case2-20">Case 20</option>
+                            </optgroup>
+                            <optgroup value="tour3" label="Tour 3">
+                                <option value="case3-1">Case 1</option>
+                                <option value="case3-2">Case 2</option>
+                                <option value="case3-3">Case 3</option>
+                                <option value="case3-4">Case 4</option>
+                                <option value="case3-5">Case 5</option>
+                                <option value="case3-6">Case 6</option>
+                                <option value="case3-7">Case 7</option>
+                                <option value="case3-8">Case 8</option>
+                                <option value="case3-9">Case 9</option>
+                                <option value="case3-10">Case 10</option>
+                                <option value="case3-11">Case 11</option>
+                                <option value="case3-12">Case 12</option>
+                                <option value="case3-13">Case 13</option>
+                                <option value="case3-14">Case 14</option>
+                                <option value="case3-15">Case 15</option>
+                                <option value="case3-16">Case 16</option>
+                                <option value="case3-17">Case 17</option>
+                                <option value="case3-18">Case 18</option>
+                                <option value="case3-19">Case 19</option>
+                                <option value="case3-20">Case 20</option>
+                            </optgroup>
+                        </select>
+                        <p id="choix1"></p>
+                    </div>
+
+                    <h1 class="case">Choix</h1>
+                    <div class="case" id="choixcase">
+                        <select id="choixcases1" onchange="showpoints1()">
+                            <option value="option">Sélectionnez une option</option>
+                            <option value="choix1">Choix 1</option>
+                            <option value="choix2">Choix 2</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="depart">
+                    <button id="depart1" onclick="depart1()">Case départ : 1 000 000 de dollars</button>
+                </div>
+                <div class="ptsdr">
+                    <div class="items" id="pts1">Points : 0</div>
+                    <div class="items" id="dr1">Dollars : 0</div>
+                </div>
             </div>
         </div>
-    <div class="footer"></div>
+    </div>
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
