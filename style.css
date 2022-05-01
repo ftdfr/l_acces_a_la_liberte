@@ -7,7 +7,6 @@ body {
     font-size: 14px;
     margin: 0;
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 .tour {
@@ -16,7 +15,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     
 }
 
@@ -25,8 +24,8 @@ body {
     padding: 0 2rem 2rem 2rem;
     border: solid 5px #2f3d4c;
     border-radius: 10px;
-    width: 15vw;
-    height: 65vh;
+    width: 37vw;
+    height: 80vh;
     z-index: 2;
     background-color:  #f4f4f4;
 }
@@ -41,9 +40,9 @@ body {
 }
 
 .body {
-    margin: 5rem;
+    margin: 3rem;
     background-color:#eeeeee;
-    height: 87vh;
+    height: 205vh;
     border-radius: 50px;
 }
 
@@ -60,6 +59,7 @@ body {
 .logo {
     position: absolute;
     border-radius: 250px;
-    top: 1rem;
-    left: 1rem;
+    top: 0.3rem;
+    left: 0.5rem;
+    transform: scale(0.5);
 }
