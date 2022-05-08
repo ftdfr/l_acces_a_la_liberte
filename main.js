@@ -26,6 +26,7 @@ var drpark = 0;
 var compteurpark = document.getElementById('compteurpark');
 
 function points1(){
+    document.getElementById('choixcases1').selectedIndex = 0;
     var x = document.getElementById('cases1').value;
     if(x == "case1-1"){
         choix1.innerHTML = "Vous accordez plus de libertés de circulation à votre peuple ainsi ils pourront se déplacer librement comme l’air<br><p style='text-align: center'>ou</p><br>Vous limitez les déplacements de vos chers citoyens, ils ne peuvent désormais que se déplacer sur les trottoirs lorsqu’ils sont à pied et vous mettez en place un couvre-feu entre 22h et 6h";
@@ -183,6 +184,7 @@ function points1(){
 }
 
 function points2(){
+    document.getElementById('choixcases2').selectedIndex = 0;
     var x1 = document.getElementById('cases2').value;
     if(x1 == "case1-1"){
         choix2.innerHTML = "Vous accordez plus de libertés de circulation à votre peuple ainsi ils pourront se déplacer librement comme l’air<br><p style='text-align: center'>ou</p><br>Vous limitez les déplacements de vos chers citoyens, ils ne peuvent désormais que se déplacer sur les trottoirs lorsqu’ils sont à pied et vous mettez en place un couvre-feu entre 22h et 6h";
@@ -340,6 +342,7 @@ function points2(){
 }
 
 function points3(){
+    document.getElementById('choixcases3').selectedIndex = 0;
     var x2 = document.getElementById('cases3').value;
     if(x2 == "case1-1"){
         choix3.innerHTML = "Vous accordez plus de libertés de circulation à votre peuple ainsi ils pourront se déplacer librement comme l’air<br><p style='text-align: center'>ou</p><br>Vous limitez les déplacements de vos chers citoyens, ils ne peuvent désormais que se déplacer sur les trottoirs lorsqu’ils sont à pied et vous mettez en place un couvre-feu entre 22h et 6h";
@@ -497,6 +500,7 @@ function points3(){
 }
 
 function points4(){
+    document.getElementById('choixcases4').selectedIndex = 0;
     var x3 = document.getElementById('cases4').value;
     if(x3 == "case1-1"){
         choix4.innerHTML = "Vous accordez plus de libertés de circulation à votre peuple ainsi ils pourront se déplacer librement comme l’air<br><p style='text-align: center'>ou</p><br>Vous limitez les déplacements de vos chers citoyens, ils ne peuvent désormais que se déplacer sur les trottoirs lorsqu’ils sont à pied et vous mettez en place un couvre-feu entre 22h et 6h";
