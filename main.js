@@ -3,27 +3,32 @@ var dr1 = document.getElementById('dr1');
 var choix1 = document.getElementById('choix1');
 var casej1 = 0;
 var ptsj1 = 0;
-var drj1 = 0;
+var drj1 = 1200000;
 var pts2 = document.getElementById('pts2');
 var dr2 = document.getElementById('dr2');
 var choix2 = document.getElementById('choix2');
 var casej2 = 0;
 var ptsj2 = 0;
-var drj2 = 0;
+var drj2 = 1200000;
 var pts3 = document.getElementById('pts3');
 var dr3 = document.getElementById('dr3');
 var choix3 = document.getElementById('choix3');
 var casej3 = 0;
 var ptsj3 = 0;
-var drj3 = 0;
+var drj3 = 1200000;
 var pts4 = document.getElementById('pts4');
 var dr4 = document.getElementById('dr4');
 var choix4 = document.getElementById('choix4');
 var casej4 = 0;
 var ptsj4 = 0;
-var drj4 = 0;
+var drj4 = 1200000;
 var drpark = 0;
 var compteurpark = document.getElementById('compteurpark');
+
+dr1.innerHTML = "Dollars : "+ drj1;
+dr2.innerHTML = "Dollars : "+ drj2;
+dr3.innerHTML = "Dollars : "+ drj3;
+dr4.innerHTML = "Dollars : "+ drj4;
 
 function points1(){
     document.getElementById('choixcases1').selectedIndex = 0;
