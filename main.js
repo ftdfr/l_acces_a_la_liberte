@@ -74,7 +74,7 @@ function points1(){
         choix1.innerHTML = "La liberté d'association consiste en la possibilité de former ou de rejoindre un groupe pour une durée prolongée. C'est le droit de constituer, d'adhérer et de refuser d'adhérer à une association<br>Vous l'accordez<br><p style='text-align: center'>ou</p><br>Vous ne la mettez pas en place";
         casej1 = 19;
     }else if(x == "case1-10"){
-        choix1.innerHTML = "Vous recevez ou perdez tout l'argent du park gratuit";
+        choix1.innerHTML = "Vous recevez ou perdez tout l'argent de la banque";
         drj1 += drpark;
         dr1.innerHTML = "Dollars : "+ drj1;
         drpark = 0;
@@ -150,7 +150,7 @@ function points1(){
         choix1.innerHTML = "Votre gouvernement a du mal à prendre des décisions. Vous décidez de mettre à la porte les membres et d’en réélire des nouveaux<br><p style='text-align: center'>ou</p><br>Vous décidez de garder le même gouvernement mais vous faites un référendum pour que le pouvoir reviennent au peuple : c’est le principe de toute démocratie";
         casej1 = 29;
     }else if(x == "case2-10"){
-        choix1.innerHTML = "Vous recevez ou perdez tout l'argent du park gratuit";
+        choix1.innerHTML = "Vous recevez ou perdez tout l'argent de la banque";
         drj1 += drpark;
         dr1.innerHTML = "Dollars : "+ drj1;
         drpark = 0;
@@ -232,7 +232,7 @@ function points2(){
         choix2.innerHTML = "La liberté d'association consiste en la possibilité de former ou de rejoindre un groupe pour une durée prolongée. C'est le droit de constituer, d'adhérer et de refuser d'adhérer à une association<br>Vous l'accordez<br><p style='text-align: center'>ou</p><br>Vous ne la mettez pas en place";
         casej2 = 19;
     }else if(x1 == "case1-10"){
-        choix2.innerHTML = "Vous recevez ou perdez tout l'argent du park gratuit";
+        choix2.innerHTML = "Vous recevez ou perdez tout l'argent de la banque";
         drj2 += drpark;
         dr2.innerHTML = "Dollars : "+ drj2;
         drpark = 0;
@@ -308,7 +308,7 @@ function points2(){
         choix2.innerHTML = "Votre gouvernement a du mal à prendre des décisions. Vous décidez de mettre à la porte les membres et d’en réélire des nouveaux<br><p style='text-align: center'>ou</p><br>Vous décidez de garder le même gouvernement mais vous faites un référendum pour que le pouvoir reviennent au peuple : c’est le principe de toute démocratie";
         casej2 = 29;
     }else if(x1 == "case2-10"){
-        choix2.innerHTML = "Vous recevez ou perdez tout l'argent du park gratuit";
+        choix2.innerHTML = "Vous recevez ou perdez tout l'argent de la banque";
         drj2 += drpark;
         dr2.innerHTML = "Dollars : "+ drj2;
         drpark = 0;
@@ -390,7 +390,7 @@ function points3(){
         choix3.innerHTML = "La liberté d'association consiste en la possibilité de former ou de rejoindre un groupe pour une durée prolongée. C'est le droit de constituer, d'adhérer et de refuser d'adhérer à une association<br>Vous l'accordez<br><p style='text-align: center'>ou</p><br>Vous ne la mettez pas en place";
         casej3 = 19;
     }else if(x2 == "case1-10"){
-        choix3.innerHTML = "Vous recevez ou perdez tout l'argent du park gratuit";
+        choix3.innerHTML = "Vous recevez ou perdez tout l'argent de la banque";
         drj3 += drpark;
         dr3.innerHTML = "Dollars : "+ drj3;
         drpark = 0;
@@ -466,7 +466,7 @@ function points3(){
         choix3.innerHTML = "Votre gouvernement a du mal à prendre des décisions. Vous décidez de mettre à la porte les membres et d’en réélire des nouveaux<br><p style='text-align: center'>ou</p><br>Vous décidez de garder le même gouvernement mais vous faites un référendum pour que le pouvoir reviennent au peuple : c’est le principe de toute démocratie";
         casej3 = 29;
     }else if(x2 == "case2-10"){
-        choix3.innerHTML = "Vous recevez ou perdez tout l'argent du park gratuit";
+        choix3.innerHTML = "Vous recevez ou perdez tout l'argent de la banque";
         drj3 += drpark;
         dr3.innerHTML = "Dollars : "+ drj3;
         drpark = 0;
@@ -548,7 +548,7 @@ function points4(){
         choix4.innerHTML = "La liberté d'association consiste en la possibilité de former ou de rejoindre un groupe pour une durée prolongée. C'est le droit de constituer, d'adhérer et de refuser d'adhérer à une association<br>Vous l'accordez<br><p style='text-align: center'>ou</p><br>Vous ne la mettez pas en place";
         casej4 = 19;
     }else if(x3 == "case1-10"){
-        choix4.innerHTML = "Vous recevez ou perdez tout l'argent du park gratuit";
+        choix4.innerHTML = "Vous recevez ou perdez tout l'argent de la banque";
         drj4 += drpark;
         dr4.innerHTML = "Dollars : "+ drj4;
         drpark = 0;
@@ -624,7 +624,7 @@ function points4(){
         choix4.innerHTML = "Votre gouvernement a du mal à prendre des décisions. Vous décidez de mettre à la porte les membres et d’en réélire des nouveaux<br><p style='text-align: center'>ou</p><br>Vous décidez de garder le même gouvernement mais vous faites un référendum pour que le pouvoir reviennent au peuple : c’est le principe de toute démocratie";
         casej4 = 29;
     }else if(x3 == "case2-10"){
-        choix4.innerHTML = "Vous recevez ou perdez tout l'argent du park gratuit";
+        choix4.innerHTML = "Vous recevez ou perdez tout l'argent de la banque";
         drj4 += drpark;
         dr4.innerHTML = "Dollars : "+ drj4;
         drpark = 0;
