@@ -60,7 +60,7 @@ function points1(){
         }
         pts1.innerHTML = "Points : "+ ptsj1;
         dr1.innerHTML = "Dollars : "+ drj1;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x == "case1-6"){
         choix1.innerHTML = "L'objection de conscience consiste à refuser d'accomplir certains actes prescrits par la loi ou par les représentants de l'autorité en général, parce que contraires à des normes morales, éthiques ou religieuses fondées sur la liberté de conscience<br><p style='text-align: center'>ou</p><br>Vous ne considérez pas ce droit valable puisqu’il permet de refuser certain ordre et de passer à travers la loi";
         casej1 = 16;
@@ -78,7 +78,7 @@ function points1(){
         drj1 += drpark;
         dr1.innerHTML = "Dollars : "+ drj1;
         drpark = 0;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x == "case1-11"){
         choix1.innerHTML = "L’éducation compte énormément pour vous et vous voulez permettre à tous les enfants sans exception de s’enrichir culturellement sans payer de frais<br><p style='text-align: center'>ou</p><br>Pour vous seul ce qui payent les frais scolaires ont droit à l’éducation";
         casej1 = 111;
@@ -136,7 +136,7 @@ function points1(){
         }
         pts1.innerHTML = "Points : "+ ptsj1;
         dr1.innerHTML = "Dollars : "+ drj1;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x == "case2-6"){
         choix1.innerHTML = "Le parlement et le sénat sont contre le projet de loi sur le retour de la peine de mort. Vous êtes totalement d’accord et forcez le passage du projet de loi<br><p style='text-align: center'>ou</p><br>Vous trouvez le projet absurde et retirez le projet de loi";
         casej1 = 26;
@@ -154,7 +154,7 @@ function points1(){
         drj1 += drpark;
         dr1.innerHTML = "Dollars : "+ drj1;
         drpark = 0;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x == "case2-11"){
         choix1.innerHTML = "La République démocratique du Congo a besoin de vous. Son président actuel Félix Tshisekedi demande une conférence d’urgence. Vous acceptez en tant que président de bon cœur<br><p style='text-align: center'>ou</p><br>Vous reportez la conférence car vous vous rendez compte qu’il n’y a aucun intérêt économique ni géopolitique";
         casej1 = 211;
@@ -218,7 +218,7 @@ function points2(){
         }
         pts2.innerHTML = "Points : "+ ptsj2;
         dr2.innerHTML = "Dollars : "+ drj2;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x1 == "case1-6"){
         choix2.innerHTML = "L'objection de conscience consiste à refuser d'accomplir certains actes prescrits par la loi ou par les représentants de l'autorité en général, parce que contraires à des normes morales, éthiques ou religieuses fondées sur la liberté de conscience<br><p style='text-align: center'>ou</p><br>Vous ne considérez pas ce droit valable puisqu’il permet de refuser certain ordre et de passer à travers la loi";
         casej2 = 16;
@@ -236,7 +236,7 @@ function points2(){
         drj2 += drpark;
         dr2.innerHTML = "Dollars : "+ drj2;
         drpark = 0;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x1 == "case1-11"){
         choix2.innerHTML = "L’éducation compte énormément pour vous et vous voulez permettre à tous les enfants sans exception de s’enrichir culturellement sans payer de frais<br><p style='text-align: center'>ou</p><br>Pour vous seul ce qui payent les frais scolaires ont droit à l’éducation";
         casej2 = 111;
@@ -294,7 +294,7 @@ function points2(){
         }
         pts2.innerHTML = "Points : "+ ptsj2;
         dr2.innerHTML = "Dollars : "+ drj2;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x1 == "case2-6"){
         choix2.innerHTML = "Le parlement et le sénat sont contre le projet de loi sur le retour de la peine de mort. Vous êtes totalement d’accord et forcez le passage du projet de loi<br><p style='text-align: center'>ou</p><br>Vous trouvez le projet absurde et retirez le projet de loi";
         casej2 = 26;
@@ -312,7 +312,7 @@ function points2(){
         drj2 += drpark;
         dr2.innerHTML = "Dollars : "+ drj2;
         drpark = 0;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x1 == "case2-11"){
         choix2.innerHTML = "La République démocratique du Congo a besoin de vous. Son président actuel Félix Tshisekedi demande une conférence d’urgence. Vous acceptez en tant que président de bon cœur<br><p style='text-align: center'>ou</p><br>Vous reportez la conférence car vous vous rendez compte qu’il n’y a aucun intérêt économique ni géopolitique";
         casej2 = 211;
@@ -376,7 +376,7 @@ function points3(){
         }
         pts3.innerHTML = "Points : "+ ptsj3;
         dr3.innerHTML = "Dollars : "+ drj3;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x2 == "case1-6"){
         choix3.innerHTML = "L'objection de conscience consiste à refuser d'accomplir certains actes prescrits par la loi ou par les représentants de l'autorité en général, parce que contraires à des normes morales, éthiques ou religieuses fondées sur la liberté de conscience<br><p style='text-align: center'>ou</p><br>Vous ne considérez pas ce droit valable puisqu’il permet de refuser certain ordre et de passer à travers la loi";
         casej3 = 16;
@@ -394,7 +394,7 @@ function points3(){
         drj3 += drpark;
         dr3.innerHTML = "Dollars : "+ drj3;
         drpark = 0;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x2 == "case1-11"){
         choix3.innerHTML = "L’éducation compte énormément pour vous et vous voulez permettre à tous les enfants sans exception de s’enrichir culturellement sans payer de frais<br><p style='text-align: center'>ou</p><br>Pour vous seul ce qui payent les frais scolaires ont droit à l’éducation";
         casej3 = 111;
@@ -452,7 +452,7 @@ function points3(){
         }
         pts3.innerHTML = "Points : "+ ptsj3;
         dr3.innerHTML = "Dollars : "+ drj3;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x == "case2-6"){
         choix3.innerHTML = "Le parlement et le sénat sont contre le projet de loi sur le retour de la peine de mort. Vous êtes totalement d’accord et forcez le passage du projet de loi<br><p style='text-align: center'>ou</p><br>Vous trouvez le projet absurde et retirez le projet de loi";
         casej3 = 26;
@@ -470,7 +470,7 @@ function points3(){
         drj3 += drpark;
         dr3.innerHTML = "Dollars : "+ drj3;
         drpark = 0;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x2 == "case2-11"){
         choix3.innerHTML = "La République démocratique du Congo a besoin de vous. Son président actuel Félix Tshisekedi demande une conférence d’urgence. Vous acceptez en tant que président de bon cœur<br><p style='text-align: center'>ou</p><br>Vous reportez la conférence car vous vous rendez compte qu’il n’y a aucun intérêt économique ni géopolitique";
         casej3 = 211;
@@ -534,7 +534,7 @@ function points4(){
         }
         pts4.innerHTML = "Points : "+ ptsj4;
         dr4.innerHTML = "Dollars : "+ drj4;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x3 == "case1-6"){
         choix4.innerHTML = "L'objection de conscience consiste à refuser d'accomplir certains actes prescrits par la loi ou par les représentants de l'autorité en général, parce que contraires à des normes morales, éthiques ou religieuses fondées sur la liberté de conscience<br><p style='text-align: center'>ou</p><br>Vous ne considérez pas ce droit valable puisqu’il permet de refuser certain ordre et de passer à travers la loi";
         casej4 = 16;
@@ -552,7 +552,7 @@ function points4(){
         drj4 += drpark;
         dr4.innerHTML = "Dollars : "+ drj4;
         drpark = 0;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x3 == "case1-11"){
         choix4.innerHTML = "L’éducation compte énormément pour vous et vous voulez permettre à tous les enfants sans exception de s’enrichir culturellement sans payer de frais<br><p style='text-align: center'>ou</p><br>Pour vous seul ce qui payent les frais scolaires ont droit à l’éducation";
         casej4 = 111;
@@ -610,7 +610,7 @@ function points4(){
         }
         pts4.innerHTML = "Points : "+ ptsj4;
         dr4.innerHTML = "Dollars : "+ drj4;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x3 == "case2-6"){
         choix4.innerHTML = "Le parlement et le sénat sont contre le projet de loi sur le retour de la peine de mort. Vous êtes totalement d’accord et forcez le passage du projet de loi<br><p style='text-align: center'>ou</p><br>Vous trouvez le projet absurde et retirez le projet de loi";
         casej4 = 26;
@@ -628,7 +628,7 @@ function points4(){
         drj4 += drpark;
         dr4.innerHTML = "Dollars : "+ drj4;
         drpark = 0;
-        compteurpark.innerHTML =  "Argent dans le park gratuit : " + drpark + " dollars"
+        compteurpark.innerHTML =  "Argent dans la banque : " + drpark + " dollars";
     }else if(x3 == "case2-11"){
         choix4.innerHTML = "La République démocratique du Congo a besoin de vous. Son président actuel Félix Tshisekedi demande une conférence d’urgence. Vous acceptez en tant que président de bon cœur<br><p style='text-align: center'>ou</p><br>Vous reportez la conférence car vous vous rendez compte qu’il n’y a aucun intérêt économique ni géopolitique";
         casej4 = 211;
@@ -1508,4 +1508,23 @@ function depart3() {
 function depart4() {
     drj4 += 1000000
     dr4.innerHTML = "Dollars : "+ drj4;
+}
+
+function reinit() {
+    drj1 = 1200000;
+    drj2 = 1200000;
+    drj3 = 1200000;
+    drj4 = 1200000;
+    ptsj1 = 0;
+    ptsj2 = 0;
+    ptsj3 = 0;
+    ptsj4 = 0;
+    dr1.innerHTML = "Dollars : "+ drj1;
+    dr2.innerHTML = "Dollars : "+ drj2;
+    dr3.innerHTML = "Dollars : "+ drj3;
+    dr4.innerHTML = "Dollars : "+ drj4;
+    pts1.innerHTML = "Points : "+ ptsj1;
+    pts2.innerHTML = "Points : "+ ptsj2;
+    pts3.innerHTML = "Points : "+ ptsj3;
+    pts4.innerHTML = "Points : "+ ptsj4;
 }
